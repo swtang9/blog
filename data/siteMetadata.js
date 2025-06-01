@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Shaowu Tang\' Blog',
   author: 'Shaowu Tang',
   headerTitle: 'Freewheeling Thoughts',
-  description: <span className="italic">"I never looked at basketball as work." -- Kobe Bryant</span>,
+  // description: <span className="italic">"I never looked at basketball as work." -- Kobe Bryant</span>,
 
   language: 'en-us',
   theme: 'system', // system, dark or light
