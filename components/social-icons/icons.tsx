@@ -129,4 +129,3 @@ export function googlescholar(svgProps: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
-
