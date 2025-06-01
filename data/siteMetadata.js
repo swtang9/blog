@@ -1,32 +1,30 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Shaowu Tang\' Blog',
-  author: 'Shaowu Tang',
-  headerTitle: 'Freewheeling Thoughts',
-  description: <span class="italic">"I never looked at basketball as work." -- Kobe Bryant</span>,
-
+  title: 'Next.js Starter Blog',
+  author: 'Tails Azimuth',
+  headerTitle: 'TailwindBlog',
+  description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://shaowutang.com/blog',
-  // siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
-  // socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  // mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'tangsw2022@mail.sustech.edu.cn',
-  github: 'https://github.com/swtang9',
-  // x: 'https://twitter.com/x',
+  socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
+  mastodon: 'https://mastodon.social/@mastodonuser',
+  email: 'address@yoursite.com',
+  github: 'https://github.com',
+  x: 'https://twitter.com/x',
   // twitter: 'https://twitter.com/Twitter',
-  // facebook: 'https://facebook.com',
-  // youtube: 'https://youtube.com',
-  // linkedin: 'https://www.linkedin.com',
-  // threads: 'https://www.threads.net',
-  // instagram: 'https://www.instagram.com',
-  // medium: 'https://medium.com',
-  googlescholar: 'https://scholar.google.com/citations?user=VWjcoy0AAAAJ',
-  // running: 'https://shaowutang.com/running_page/', 都配置好了，但是显示不出来
+  facebook: 'https://facebook.com',
+  youtube: 'https://youtube.com',
+  linkedin: 'https://www.linkedin.com',
+  threads: 'https://www.threads.net',
+  instagram: 'https://www.instagram.com',
+  medium: 'https://medium.com',
+  bluesky: 'https://bsky.app/',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
-  stickyNav: true,
+  stickyNav: false,
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
