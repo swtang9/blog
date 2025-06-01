@@ -110,8 +110,6 @@ export function Bluesky(svgProps: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
-
-
 export function ORCID(svgProps: SVGProps<SVGSVGElement>) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...svgProps}>
@@ -120,7 +118,6 @@ export function ORCID(svgProps: SVGProps<SVGSVGElement>) {
     </svg>
   )
 }
-
 export function googlescholar(svgProps: SVGProps<SVGSVGElement>) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" {...svgProps}>
