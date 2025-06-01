@@ -141,6 +141,8 @@ export const Authors = defineDocumentType(() => ({
     twitter: { type: 'string' },
     bluesky: { type: 'string' },
     linkedin: { type: 'string' },
+    ORCID: { type: 'string' },
+    googlescholar: { type: 'string' },
     github: { type: 'string' },
     layout: { type: 'string' },
   },

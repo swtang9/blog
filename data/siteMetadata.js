@@ -21,8 +21,8 @@ const siteMetadata = {
   // threads: 'https://www.threads.net',
   // instagram: 'https://www.instagram.com',
   // medium: 'https://medium.com',
-  // ORCID: 'https://orcid.org/0009-0007-7563-6862',
-  // googlescholar: 'https://scholar.google.com/citations?user=VWjcoy0AAAAJ',
+  ORCID: 'https://orcid.org/0009-0007-7563-6862',
+  googlescholar: 'https://scholar.google.com/citations?user=VWjcoy0AAAAJ',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
   stickyNav: true,
