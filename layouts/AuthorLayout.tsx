@@ -9,7 +9,7 @@ interface Props {
 }
 
 export default function AuthorLayout({ children, content }: Props) {
-  const { 
+  const {
     name,
     avatar,
     occupation,
@@ -20,7 +20,7 @@ export default function AuthorLayout({ children, content }: Props) {
     linkedin,
     github,
     ORCID,
-    googlescholar
+    googlescholar,
   } = content
 
   return (
